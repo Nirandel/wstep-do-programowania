@@ -1,6 +1,4 @@
-2\. Napisać i uruchomić program w C, który wczytuje liczbę naturalną n i drukuje wartość sumy kwadratów
-
-    12 + 22 + 32 + . . . + n2 
+2\. Napisać i uruchomić program w C, który wczytuje liczbę naturalną n i drukuje wartość sumy kwadratów: 12 + 22 + 32 + . . . + n2 
     
     ```
          #include<stdio.h>
