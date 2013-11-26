@@ -1,0 +1,77 @@
+     /*
+	 
+	 Skonczylem na wpisywaniu wartosci do tablicy. 
+	 
+	 */
+	 
+	 
+	  #include<stdio.h>
+      int main () {
+       int n;
+       int i;
+       int wynik=0;
+       printf("Napisac i uruchomic program w C,\nktory wczytuje liczbe naturalna n i drukuje\nwartość sumy kwadratów:\n\n12 + 22 + 32 + . . . + n2" );
+        
+		printf("\n\n\nPodaj liczbe n: ");
+		scanf("%d", &n);
+        printf("\nn=%d \n", n );
+        for (i = 1; i <= n; i++){
+		 wynik=wynik+(i*i);
+         printf("%d wynik == %d \n",i, wynik );
+	     
+	   } 
+/*	   int tab[10]={10,15,20,145,43,234,14,0,0,11};
+ 		int a;
+ 		for(a=0; a<10; a++){
+ 			printf("tab[%d]=%d\n",a,tab[a]);
+ 		}
+*/ // 		int b;
+//		int a;
+		int c=2;
+		int tab[3]={1,2,31};
+ //		int ilosc=5;
+ 	//	for(b=0; b<ilosc ; b++){
+ 	//		scanf("tab[%d]=%d\n",a,tab[a]);
+ 	//	}
+ 		printf("tab[3]=%d\n", tab[c]);
+ 		
+ 		
+ 		
+ 	
+ 		
+	 return 0;
+     }  
+/* int tab[10] = {10, 15, 20, 145, 43, 234, 14, 0, 0, 11};
+int a;
+for (a = 0; a < 10; a++)
+printf("tab[%d] = %d\n", a, tab[a]);
+*/
+      // printf("wynik=%d", wynik);
+        
+		
+		
+	
+     
+    //  for (liczba=1; liczba <= 10; liczba++) 
+    //  kwadrat = liczba * liczba;
+    //  printf("%d  %d\n",liczba,kwadrat);
+    
+
+  
+
+/* int main () {
+  int wynik;  wynik=0;
+  double x,y;
+  printf(" x == "); scanf("%lf", &x);
+  printf(" y == "); scanf("%lf", &y);
+  if (x>0) wynik=wynik+1;
+  if (y>0) wynik=wynik+1;
+  if (x+y>6) wynik=wynik+1;
+  if (wynik==0 || wynik==2)
+    printf("\n Punkt (%lf,%lf) jest bialy.\n\n", x, y);
+  else
+    printf("\n Punkt (%lf,%lf) jest szary.\n\n", x, y);
+  return 0;
+}
+
+*/
