@@ -173,3 +173,20 @@ int main () {
 
 
 ```
+
+
+
+
+Rozwiazanie do zadania 2. (napisane na tablicy)
+
+```
+void petla1(double ciag1[],double ciag2[],double ciag[], int i1, int i2, int i) {
+if(i1<n1 && i2<n2)
+if(ciag1[i1]<ciag1[i1]) {
+ciag[i]=ciag1[i1]; petla1(ciag1,ciag2,ciag,i1+1, i2, i+1);
+}
+else{
+ciag[i]=ciag2[i2];petla1(ciag1,ciag2,ciag,i1,i2+1,i+1)
+}
+}petla1(ciag1,ciag2,ciag,0,0,0);
+
