@@ -1,6 +1,6 @@
 Zadanie1. W poniższym zadaniu (oznaczonym komentarzem) usunąć rekursję zastępując ją pętlą: 
 
-
+PRZYKŁAD 1. (największy wspólny dzielnik dwóch liczb naturalnych)
 
 
 ```
@@ -90,7 +90,7 @@ int main () {
 ```
 
 
-PRZYKŁAD 2.
+PRZYKŁAD 2. (rozkład liczby naturalnej na czynniki pierwsze)
 
 ```
 
