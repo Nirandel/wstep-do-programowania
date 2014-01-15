@@ -1,4 +1,22 @@
+------------------------------------------------------------------------
+
 http://www.speedyshare.com/ahVcG/wstep-prog.zip	   (15.01.2014)
+
+------------------------------------------------------------------------
+	 
+Rozwiazanie zadania 3. z lab12. zaproponowane przez profesora:
+
+Zad3.
+
+for(i=31; i>=0;i=i-1)
+{
+printf("%i", bit_liczby(i,liczba));
+if(i%8==0) printf(" ");
+}
+printf("\n")
+
+------------------------------------------------------------------------
+	 
 	 
 	  #include<stdio.h>
       int main () {
