@@ -1,0 +1,80 @@
+#include<stdio.h>
+#include<string.h>
+#define ILE 10000
+#define MAX_NAZW 30
+#define MAX_IMIE 20
+
+char nazwisko[ILE][MAX_NAZW], imie[ILE][MAX_IMIE];
+int zarobek[ILE];
+
+void wczytywanie() {
+	int i;
+for(i=0; i<ILE; i++){
+	scanf("%s", nazwisko[i]);
+    scanf("%s", imie[i]);
+	scanf("%i", &zarobek[i]);
+	
+}	
+
+}
+int main () {
+
+
+	int i;
+	
+	
+	for(i=0; i<ILE; i++){
+	printf("%s \n", nazwisko[i]);
+	printf("%s", imie[i]);
+	printf("%i", zarobek[i]);
+}	
+
+
+	
+     return 0;
+     }
+     /*
+     
+------::::ROZWIAZANIE Z TABLICY::::--------
+  
+
+
+#define ILE 10000
+#define MAX_DL_NAZW ...  //np 30
+#define MAX_DL_IM ... //np 20
+char nazw[ILE][MAX_DL_NAZW],
+imie[ILE][MAX_DL_IM];
+int zar[ILE];
+
+-----------------------------------------
+
+int poprzedza(int i, int j) { //osoba i-ta poprzedza alt osobe j-ta
+if(strcmp(nazw[i],nazw[j])==0)
+return(strcmp(imie[i],imie[j])<0);
+else return(strcmp(nazw[i],nazw[j])<0);
+}
+
+--------------------------------------------
+
+void wczytanie() {
+	int i;
+	for(i=0; i<ILE; i=i+1){
+		scanf("%s", imie[i]);
+		scanf("%s", nazw[i]);
+		scanf("%i", &zar[i]);
+	}
+}
+
+-------------------------------------------
+
+void zamiania(int i, int j){
+	char nazw_pom[MAX_DL_NAZW];
+	char im_pom[MAX_DL_IM];
+	int zar-pom;
+	strcpy(nazw_pom, nazw[i]);
+	strcpy(nazw[i], nazw[j]);
+	strcpy(nazw[j], nazw_pom);
+}
+*/
+
+*/
