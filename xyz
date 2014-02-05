@@ -19,11 +19,11 @@ Na przykład dla danych
 
 medianą jest liczba 1.0.
 
-UWAGA!!! Program nie dziala prawidlowo w C++
+odp: 
 
-int i, j, n;
+ int i, j, n;
     printf("Podaj ilosc liczb: ");
-    scanf("%lf", &n);
+    scanf("%i", &n);
     if((n % 2 == 0 || n<0))
     printf("Nieprawidlowa liczba.\n");
     else{
@@ -37,4 +37,4 @@ int i, j, n;
     {pom=a[i];
     a[i]=a[i+1];
     a[i+1]=pom;}}
-    printf("Mediana to: \n", a[n/2]);}
+    printf("Mediana to: %lf\n", a[n/2]);}
