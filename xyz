@@ -19,7 +19,7 @@ Na przykład dla danych
 
 medianą jest liczba 1.0.
 
-UWAGA!!! Program nie dziala prawidlowo c C++
+UWAGA!!! Program nie dziala prawidlowo w C++
 
 int i, j, n;
     printf("Podaj ilosc liczb: ");
