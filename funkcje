@@ -18,3 +18,30 @@
 
 
 http://screencloud.net//img/screenshots/c6d93d76a93e78ca57a836d84d5211d6.png
+
+#include<stdio.h>
+ int qq(int n,int k)
+  {
+  if((n==0) || (k==0)) 
+  return 1; 
+   else {
+   
+   int i,j,s; 
+  s=0; for (i=0; i<n; i=i+1)
+  for(j=0; j<k; j=j+1) s=s+qq(i,j); return s;} }
+	int main () { 
+	int k,n;
+	 printf("Podaj liczbe n: ");
+	  scanf("%i", &n);
+	   printf("Podaj liczbe k: ");
+ scanf("%i", &k);
+  if((n<0) || (k<0))
+   printf("Obie liczby musza byc wieksze lub rowne 0 !!!\n"); 
+   else printf("Wynik to: %i\n",qq(n,k)); 
+   return 0;
+    }
+   
+/*   
+   int qq (intn, int k) { if (n==0 || k==0) return 1; else int i,j, s;
+s=0; for (i=0; i<n; i=i+1)
+for (j=0; j<k; j=j+1) s=s+qq(i,j); return s; } */
