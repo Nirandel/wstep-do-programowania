@@ -19,7 +19,7 @@ Na przykład dla danych
 
 medianą jest liczba 1.0.
 
-odp: 
+PRAWIDLOWA ODPOWIEDZ: 
 
  int i, j, n;
     printf("Podaj ilosc liczb: ");
@@ -37,4 +37,4 @@ odp:
     {pom=a[i];
     a[i]=a[i+1];
     a[i+1]=pom;}}
-    printf("Mediana to: %lf\n", a[n/2]);}
+    printf("Mediana to: %lf\n", a[(n/2)+1];}
