@@ -3,3 +3,18 @@ zad1. Podaj liczbe od 1 do 10
 50
 
 blad programu w linijce 10
+
+
+Napisać program w C, który wczytuje
+
+    nieparzystą liczbę naturalną n (jeśli jest parzysta lub ujemna, to program powinien zasygnalizować błąd), oraz
+    n liczb rzeczywistych   a0, a1, a2, …, an−1 
+
+i drukuje medianę tych liczb. Mediana, to ta liczba z ciągu, od której jest w ciągu tyle samo liczb mniejszych i tyle samo liczb większych.
+
+Na przykład dla danych
+
+    7
+    12.5 -3.14 10.4 -8.2 -3.14 1.0 3.21 
+
+medianą jest liczba 1.0.
