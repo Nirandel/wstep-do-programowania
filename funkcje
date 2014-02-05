@@ -15,3 +15,6 @@
    printf("Obie liczby musza byc wieksze lub rowne 0 !!!\n"); 
    else printf("Wynik to: %i\n",qq(n,k)); 
    return 0; }
+
+
+http://screencloud.net//img/screenshots/c6d93d76a93e78ca57a836d84d5211d6.png
